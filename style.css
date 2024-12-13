@@ -16,3 +16,29 @@ html,body{
     margin: 0 auto;
     padding: 0 1rem;
 }
+.title{
+    margin-bottom:3rem ;
+
+}
+.title h1{
+    text-align: center;
+    opacity: 0.7;
+}
+.product{
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 6px 12px -7px rgba(171, 171, 171, 1);
+    transition: box-shadow 0.4s ease-out;
+    position: relative;
+    -webkit-box-shadow: 0 6px 12px -7px  rgba(171, 171, 171, 1);
+    -webkit-transition: -webkit-box-shadow 0.4s ease-out;
+    -o-transition:  box-shadow 0.4s ease-out;
+    transition:  box-shadow 0.4s ease-out, -webkit-box-shadow 0.4s ease-out;
+}
+.product:hover{
+    box-shadow: 0 10px 12px -7px rgba(171, 171, 171, 1);
+}
+.product-image img{
+    width: 100%;
+}
